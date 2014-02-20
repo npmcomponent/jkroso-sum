@@ -1,17 +1,13 @@
 {
-  "name": "sum-component",
+  "name": "jkroso-sum",
+  "description": "Array sum utility",
   "version": "0.2.0",
-  "description": "Sum utility",
+  "keywords": [
+    "array",
+    "sum",
+    "utility"
+  ],
   "dependencies": {
-    "to-function": "~1.2.0"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "sum/index.js": "index.js"
-    }
+    "component-to-function": "git://github.com/npmcomponent/component-to-function.git"
   }
 }

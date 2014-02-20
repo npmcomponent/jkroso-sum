@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var toFunction = require('to-function');
+var toFunction = require('component-to-function');
 
 /**
  * Sum the given `arr` with callback `fn(val, i)`.
